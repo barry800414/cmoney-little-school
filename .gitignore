@@ -3,4 +3,4 @@ npm-debug.log
 node_modules
 .nyc_output
 .env
-.json
+*.json
