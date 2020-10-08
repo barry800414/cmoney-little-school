@@ -1,0 +1,22 @@
+* {
+  font-family: "PingFangTC-Semibold";
+}
+
+h1 {
+  color: rgb(0, 113, 181);
+  font-size: 26px;
+  line-height: 26px;
+}
+
+h2 {
+  color: rgb(0, 113, 181);
+  font-size: 20px;
+  line-height: 20px;
+}
+
+p,
+p > span,
+ol > li {
+  font-size: 17px !important;
+  line-height: 28px;
+}
