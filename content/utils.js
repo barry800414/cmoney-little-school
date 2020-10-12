@@ -70,9 +70,17 @@ const getLeafUnitIds = (root) => {
     return null;
 }
 
+const renameCourseTitle = (course, newTitle) => {
+    if ("Root" in course) {
+        course["Root"]["Title"] = newTitle;
+    }
+    return course;
+}
+
 module.exports = {
     getCourseList,
     getCourse,
     getUnit,
     getLeafUnitIds,
+    renameCourseTitle,
 }
